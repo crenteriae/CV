@@ -15,7 +15,7 @@ export default function Home() {
         <LoginForm />
       </div>
       <Image 
-        src={"/Zugpsitze_mountain.jpg"}
+        src={"/Zugpsitze_mountain.webp"}
         layout="fill"
         objectFit="cover"
         alt="Nature"
