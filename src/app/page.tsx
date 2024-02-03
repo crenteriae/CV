@@ -2,6 +2,8 @@
 
 import LoginForm from "./components/loginForm";
 import Image from "next/image";
+import background from "./Zugpsitze_mountain.webp";
+
 
 import { useEffect } from "react";
 
@@ -15,10 +17,11 @@ export default function Home() {
         <LoginForm />
       </div>
       <Image 
-        src={"/Zugpsitze_mountain.webp"}
+        src={background}
         layout="fill"
         objectFit="cover"
         alt="Nature"
+        placeholder="blur"
       />
     </div>
   )
