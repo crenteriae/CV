@@ -15,12 +15,12 @@ export default function LoginForm() {
         }
     }
     return(
-        <div className="mx-3">
+        <div className="mx-3 w-full">
             <form className="font-sans p-2">
                 <div className="form-group mb-2">
                 <label htmlFor="exampleInputEmail1">Correo electrónico</label>
                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico"></input>
-                <small id="emailHelp" className="form-text text-muted">Tu correo no será compartido con nadie.</small>
+                <small id="emailHelp" className="form-text text-muted">Tu correo no se compartirá con nadie.</small>
                 </div>
                 {/* --------------------------- */}
                 <div className="form-group">
