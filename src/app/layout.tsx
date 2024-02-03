@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Crimson_Pro, Cabin } from 'next/font/google'

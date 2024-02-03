@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Icon from "./pic"
+import Pic from "./pic"
 
 export default function Header(){
     return(
@@ -18,7 +18,7 @@ export default function Header(){
                 <p>Programador</p>
                 <div className="flex mt-5 flex-row flex-wrap">
                     <div  className="flex flex-row items-end mr-5">
-                        <Icon 
+                        <Pic 
                             url="/email.png"
                             altText="E-Mail"
                             size={18}
@@ -26,7 +26,7 @@ export default function Header(){
                         <p className="ml-1 text-base">crenteriaejr@gmail.com</p>
                     </div>
                     <div  className="flex flex-row items-end mr-5">
-                        <Icon 
+                        <Pic 
                             url="/telefono.png"
                             altText="Teléfono"
                             size={20}
@@ -34,7 +34,7 @@ export default function Header(){
                         <p className="ml-1 text-base">686-147-5332</p>
                     </div>
                     <div  className="flex flex-row items-end mr-5">
-                        <Icon 
+                        <Pic 
                             url="/direccion.png"
                             altText="Dirección"
                             size={20}
@@ -42,7 +42,7 @@ export default function Header(){
                         <p className="ml-1 text-base">Mexicali, Baja California</p>
                     </div>
                     <div  className="flex flex-row items-end mr-5">
-                        <Icon 
+                        <Pic 
                             url="/linkedin.png"
                             altText="LinkedIn"
                             size={20}
@@ -52,7 +52,7 @@ export default function Header(){
                         </a>
                     </div>
                     <div  className="flex flex-row items-end">
-                        <Icon 
+                        <Pic 
                             url="/github.png"
                             altText="GitHub"
                             size={20}
